@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    color: white;
+}
+
+header {
+    background-color: #00224f; 
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar nav a {
+    color: #f3d817; 
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
